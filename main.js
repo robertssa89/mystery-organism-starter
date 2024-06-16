@@ -19,7 +19,7 @@ const pAequorFactory = (idNumber, dnaArr) => {
     
     dna: dnaArr,
     
-    //Method that mutates a base of this specimens DNA into a new base
+    //Method that mutates a base of this specimen's DNA into a new base
     mutate() {
       let randomNumber = Math.floor(Math.random() * dnaArr.length);
       let randomBase = dnaArr[randomNumber];
